@@ -6,7 +6,9 @@ import os
 import numpy as np
 import tensorflow as tf
 
-import model, sample, encoder
+import sys
+sys.path.append('.')
+from src import model, sample, encoder
 
 def interact_model(
     model_name='124M',
